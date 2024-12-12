@@ -1,0 +1,158 @@
+Linux
+
+clear - to clear screen
+pwd - print working directory
+cd- change directory
+id - tp knw logged in user 
+sudo -I   login with root user 
+ls - list of files and folders 
+ls -lrt -list file and folders with command line arguments 
+ls -lrta -list file and folders with all hidden files
+ls -lrth-list file and folders with human readable format
+touch - to create file 
+mkdir - to create folder 
+echo - print msg
+cat - display file content 
+
+vim -to file creating with text 
+rmdir- remove directory 
+cd .. - back to one folder 
+cd ../.. -back to two folders 
+cd ~  - back to home 
+rm -rf - remove file and folders  recorously forcefully 
+mkdir -p "foldername/1/2/3/" - create folder in that folder 
+
+
+head auth.log - to see top 10 lines 
+tail auth.log - to see bottom 10 lines 
+head -n 2 auth.log - to see 2 lines
+tail -n 2 auth.log - to see 2 lines 
+ 
+head -n 10 auth.log | grep 'ubuntu' - to print top 10 lines and search for ubuntu
+tail -n 10 auth.log | grep 'ubuntu' - to print top 10 lines and search for ubuntu  
+
+cat auth.log | grep -I "finished' - to see auth.log file and search for finished without case sensitive  
+
+ls -a | grep "n\.'
+
+
+adduser  rushi - adding user 
+addgruop rushig - adding group rushig 
+cd /etc/group - all info about group and user is available 
+usermod -g 1003 ram - to add user in group 1003	
+
+default permission for 
+file -644
+folder -755
+
+chown  file1- change owner 
+chgrp  file1 - change group 
+
+apt - ubuntu 
+
+apt update -y - update 
+apt install ysftpd - install package 
+apt remove vsftpd - remove package 
+apt info vsftpd- information about 
+apt list  -- installed -- info about installed packages
+
+yum - amazon/redhat
+
+yum update -y - update nginx
+yum install ysftpd - install package 
+yum remove vsftpd - remove package 
+yum info vsftpd- information about 
+yum list  -- installed -- info about installed packages 
+
+systemctl rebot nginx
+systemctl start nginx 
+systemctl stop nginx
+systemctl restart nginx  
+
+
+ipconfig
+ifconfig
+hostname -I 
+traceroute gogle.com  - tracing the path between two systems. It will display the different routers or hops needed to travel from the source system to the destination system. 
+tracepath - to trace the path from the origin to the destination.
+ping -c 5 www.google.com - only see 5 lines connectivity 
+
+
+find file1
+find "*.pdf"
+find "*.txt"
+locate file1 
+
+date 
+df diskspace 
+df -h
+du
+du -h
+mail -s "   " 
+ps -ux - to show process in system 
+history - all commands 
+history -c - delete history
+init o
+init 6
+
+
+
+top 
+
+
+cut -d " " -f2 file1
+cut -d " " -f3 file1
+
+cut -b2 " " file1 
+cut -b4 " " file1
+
+cut -c2 " " file1
+cut -c3 " " file2
+
+
+cat file1 | grep 'rushi'
+cat file1 | grep -I 'rushi'
+cat file1 | grep -v 'rushi' 
+
+echo 
+
+sed 
+
+echo batch1 batch2 | sed " s/batch/class/"
+
+sed '1,2s/are/is/' file1
+
+cat file1 | sed -I '1,3s/w/W/'file1
+
+
+
+wc file1
+wc -l
+wc -w
+
+
+awk '{print$0}'
+awk '{print$2}'
+awk '{print$3}'
+awk '{print$1,$4}'
+
+df -I 
+ln file1 hard_file1
+ln -s file1 soft_file1
+
+tar -czvf file1.tar.gz file1
+tar -xvzf file1.tar.gz fiini le1
+
+
+wget www.github.clone.
+free 
+free-h 
+init 0
+init 6
+
+echo $?
+
+how to copy file 
+IIS -Internate information services 
+what is compiler and interpretor
+network teopology -A network topology is the physical and logical arrangement of nodes and connections in a network.
